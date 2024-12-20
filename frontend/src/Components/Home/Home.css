@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    
+    
+  }
+  
+  li {
+    margin: 60px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  li p {
+    margin: 5px 0;
+  }
+  
+  strong {
+    font-size: 1.2em;
+    color: #333;
+  }
+  .add, .update, .delete{
+    margin-top: 10px;
+    padding: 15px;
+    background-color:transparent;
+    border: 2px solid black;
+    color: black;
+  }
+
+  .add:hover, .update:hover, .delete:hover{
+    background-color: black;
+    color: #fff;
+  }
+

@@ -6,7 +6,7 @@ const PORT = 8080;
 
 const mongoose = require("mongoose");
 mongoose
-  .connect("mongodb://localhost:27017/apinodeparis", {})
+  .connect("mongodb://localhost:27017/tp-groupe-mern", {})
   .then(console.log("Connected to MongoDB"));
 
 const routes = require("./Routes/route");
